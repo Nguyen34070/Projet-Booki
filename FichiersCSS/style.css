@@ -1,0 +1,474 @@
+/* Général */
+html, body{
+	font-family: Raleway;
+}
+section{
+	margin-top: 35px;
+}
+.flexcenter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flexaround{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.flexbetween{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#hebergements{
+	margin: 35px 15px 15px 15px;
+}
+.flexcolumncenter{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.flexcolumnaround{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.flexcolumnbetween{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.flexend{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 15px;
+	gap: 60px;
+}
+.flexcolumnend{
+	align-items: flex-end;
+}
+.bordureoff{
+	border: none;
+}
+.decorationoff{
+	text-decoration: none;
+}
+.espaceentretexte{
+	line-height: 30px;
+}
+.gras{
+	font-weight: bold;
+}
+/* Couleur */
+.colorblue{
+	color: #0065FC;
+}
+.colorblueciel{
+	color: #deebff;
+}
+.colorgris{
+	color: #f2f2f2;
+}
+.colorblack{
+	color: black;
+}
+.backblue{
+	background-color: #0065FC;
+}
+.backblueciel{
+	background-color: #deebff;
+}
+.backgris{
+	background-color: #f2f2f2;
+}
+/* Couleur Etoile */
+.colorstarblue{
+	color: #0065FC;
+}
+.colorstargris{
+	color: silver;
+}
+/* Nav*/
+.bordnav{
+	border-top: 2px solid transparent;
+}
+.bordnav:hover{
+	border-top: 2px solid #0065FC;
+}
+.logomob{
+	padding-left: 25px;
+	padding-top: 55px;
+}
+.sizenav{
+	height: 100px;
+	margin-bottom: 75px;
+}
+.sizelien{
+	width: 100%;
+	height: 99px;
+	text-align: center;	
+}
+nav a{
+	display: flex;
+	flex-direction: column-reverse;
+    margin-right: 15px;
+    margin-top: 15px;
+	padding-top: 55px;
+	font-size: 23px;
+}
+nav div a:hover{
+    color: #0065FC;
+}
+/* Header */
+.bordinput{
+	width: 400px;
+	border-radius: 10px;
+	border-top: 0.5px solid #f2f2f2;
+	border-bottom: 0.5px solid #f2f2f2;
+}
+.paddingsearch{
+	padding-left: 20px;
+}
+.recherche{
+	height: 50px;
+	width: 230px;
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+.iconesize{
+	height: 50px;
+	width: 50px;
+	border-radius: 10px 0 0 10px;
+}
+.boutonblue{
+	height: 50px;
+	width: 120px;
+	color: white;
+	cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+}
+.desktopnone{
+	display: none;
+}
+.boutonblue:hover{
+	background-color: #deebff;
+	color:#0065FC;
+}
+/* Filtre */
+.margfiltre{
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.marfiltretitre{
+	margin-right: 20px;
+}
+.filtre{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.filtretexteicon{
+	border: 2px solid #f2f2f2;
+	height: 50px;
+	border-radius: 30px;
+	margin-right: 20px;
+}
+.filtretexte{
+	height: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 0 25px 25px 0;
+}
+.filtreicon{
+	margin-left: -2px;
+	border-radius: 25px;
+	width: 52px;
+	height: 52px;
+	color: #0065FC;
+	background-color: #deebff;
+}
+.filtreicon:hover{
+	cursor: pointer;
+	background-color: #0065FC;
+	color: #deebff;
+}
+/* Info Icone */
+.info{
+	display: flex;
+	align-items: center;
+}
+.parenticon{
+	width: 20px;
+	height: 20px;
+	border: 2px solid #f2f2f2;
+	border-radius: 25px;
+	margin-right: 5px;
+}
+/* Hébergements */
+.sizehebergement{
+	flex: 2;
+	height: 700px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+.blochebergement{
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 700px;
+}
+.bloc1{
+	margin-bottom: 10px;
+}
+.bloc2{
+	margin-top: 10px;
+}
+.cubehebergement{
+	width: 30%;
+	height: auto;
+	background-color: white;
+	padding: 0.5%;
+	border-radius: 20px;
+	box-shadow: 0.5px 0.5px 10px 0.5px silver;
+}
+.cubehebergement:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.cubedetailhebergement{
+	width: 90%;
+}
+.imghebergement1{
+    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/cannebiere.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 120px;
+	border-radius: 15px 15px 0 0;
+}
+.imghebergement2{
+    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/port.jpg");
+	background-size: cover;
+	background-position: 45% 65%;
+	width: 100%;
+	height: 120px;
+	border-radius: 15px 15px 0 0;
+}
+.imghebergement3{
+    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/mouette.jpg");
+	background-size: cover;
+	background-position: 55% 75%;
+	width: 100%;
+	height: 120px;
+	border-radius: 15px 15px 0 0;
+}
+.imghebergement4{
+    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/mer.jpg");
+	background-size: cover;
+	background-position: 45% 65%;
+	width: 100%;
+	height: 120px;
+	border-radius: 15px 15px 0 0;
+}
+.imghebergement5{
+    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/panier.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 120px;
+	border-radius: 15px 15px 0 0;
+}
+.imghebergement6{
+    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/amina.jpg");
+	background-size: cover;
+	background-position: 45% 60%;
+	width: 100%;
+	height: 120px;
+	border-radius: 15px 15px 0 0;
+}
+/* Populaires */
+.blocpopulaire{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.blocpopulaire12{
+	margin-bottom: 22px;
+}
+.cubepopulaire{
+	background-color: white;
+	height: auto;
+	padding: 1% 0 1% 1%;
+	border-radius: 20px;
+	box-shadow: 0.5px 0.5px 10px 0.5px silver;
+}
+.cubepopulaire:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+}
+.cubedetailpopulaire{
+	width: 60%;
+	padding-left: 5%;
+}
+.imgpopulaire1{
+    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/soleil.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 35%;
+	height: 160px;
+	border-radius: 15px 0 0px 15px;
+}
+.imgpopulaire2{
+    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/coeur2.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 35%;
+	height: 160px;
+	border-radius: 15px 0 0px 15px;
+}
+.imgpopulaire3{
+    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/bleu.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 35%;
+	height: 160px;
+	border-radius: 15px 0 0px 15px;
+}	
+.sizepopulaire{
+	flex: 1;
+	height: 700px;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+.margpop{
+	margin-bottom: 35px;
+	padding-top: 10px;
+}
+/* Activités */
+.activite{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 15px;
+}
+.blocactivite{
+	width: 100%;
+	height: 600px;
+}
+.blocactivite2356{
+	width: 23%;
+	height: 600px;
+}
+/* Réglage Bloc */
+.cubeactivite{
+	width: 23%;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.cubeactivite:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+}
+.cubeactivite2356{
+	width: 100%;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.cubeactivite2356:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+}
+/* Fin Réglage Bloc */
+.hauteurtitre{
+	height: 70px;
+}
+.titreactivite{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 5%;
+	width: 95%;
+}
+.imgactivite1{
+    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/vieuxport.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 530px;
+	border-radius: 15px 15px 0 0;
+}
+.imgactivite2{
+    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/fort.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 200px;
+	border-radius: 15px 15px 0 0;
+}
+.imgactivite3{
+    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/frioul.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 200px;
+	border-radius: 15px 15px 0 0;
+}
+.imgactivite4{
+    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/calanque.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 530px;
+	border-radius: 15px 15px 0 0;
+}
+.imgactivite5{
+    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/dame.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 200px;
+	border-radius: 15px 15px 0 0;
+}
+.imgactivite6{
+    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/longchamp.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 200px;
+	border-radius: 15px 15px 0 0;
+}
+/* Footer */
+.blocfooter{
+	margin-top: 100px;
+	height: 300px;
+	flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+.blocfooter a{
+    color: black;
+}
+.taillebloc{
+	height: 150px;
+}
+.margblocfoot1{
+	margin-left: 5%;
+}
+.margblocfoot2{
+	margin-right: 20%;
+}
+@media screen and (max-width:992px){
+.cubedetailhebergement{
+	min-height: 150px;
+}
+.margpop{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.blocactivite2356{
+	height: 570px;
+	margin-bottom: 30px;
+	gap: 50px;
+}
+ }
