@@ -390,7 +390,7 @@ nav div a:hover{
 	width: 95%;
 }
 .imgactivite1{
-    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/vieuxport.jpg");
+    background-image: url("../Image/vieuxport.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 100%;
@@ -398,7 +398,7 @@ nav div a:hover{
 	border-radius: 15px 15px 0 0;
 }
 .imgactivite2{
-    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/fort.jpg");
+    background-image: url("..//Image/fort.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 100%;
@@ -406,7 +406,7 @@ nav div a:hover{
 	border-radius: 15px 15px 0 0;
 }
 .imgactivite3{
-    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/frioul.jpg");
+    background-image: url("../Image/frioul.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 100%;
@@ -414,7 +414,7 @@ nav div a:hover{
 	border-radius: 15px 15px 0 0;
 }
 .imgactivite4{
-    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/calanque.jpg");
+    background-image: url("../Image/calanque.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 100%;
@@ -422,7 +422,7 @@ nav div a:hover{
 	border-radius: 15px 15px 0 0;
 }
 .imgactivite5{
-    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/dame.jpg");
+    background-image: url("../Image/dame.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 100%;
@@ -430,7 +430,7 @@ nav div a:hover{
 	border-radius: 15px 15px 0 0;
 }
 .imgactivite6{
-    background-image: url("file://C:/Users/kuroi/OneDrive/Bureau/P2_NGUYEN_CODE/Image/longchamp.jpg");
+    background-image: url("../Image/longchamp.jpg");
 	background-size: cover;
 	background-position: center;
 	width: 100%;
